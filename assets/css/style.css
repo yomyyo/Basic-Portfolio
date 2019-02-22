@@ -1,20 +1,96 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+#navbar a:hover{
+    color: blue;
+}
+
+#navbar a:link{
+    text-decoration: none;
+}
+
 #navbar{
     background-color: #333;
     overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
 }
 
-#name{
+#main-container{
+    min-height: 100%;
+    position: relative;
+}
+
+#main{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.container{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h1{
+    position: absolute;
     color: black;
     background-color: bisque;
-    text-align: center;
+    padding: 30px;
+    margin: 0 auto;
+    margin-left: 10%;
     float: left;
+    display: inline-block;
 }
 
 #navbar a{
     float: right;
     color: #f2f2f2;
     text-align: center;
-    margin: 10px;
     padding: 30px;
+    padding-bottom: 45.2px;
     font-size: 20px;
+    
+}
+
+#myPic{
+    width: 20%;
+    height: auto;
+    float: left;
+    margin: 20px;
+}
+
+#myFooter{
+    position: absolute;
+    height: 20px;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    bottom: 0;
+}
+
+.myForm{
+    padding: 20px;
+}
+
+.form{
+    padding-bottom: 20px;
+}
+
+.myForm label{
+    display: block;
+}
+
+.myForm input[type="text"], .myForm textarea{
+    width: 100%;
+    padding: 5px;
+}
+
+.myForm textarea{
+    height: 100px;
 }
